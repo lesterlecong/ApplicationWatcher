@@ -27,7 +27,10 @@ Add "MeldCX" as a registry key under the following key:
 Make sure you run the **Registry Editor** as admin.
 Set the following values:
 
-| Value name          | Type       | Value data                                                             |
-| ------------------- | ---------- | ---------------------------------------------------------------------- |
-| CategoryCount       | REG\*DWORD | 0x00000003                                                             |
-| CategoryMessageFile | REG_SZ     | \_ApplicationWatcher path\*/LoggingHandler/Windows/MeldCX_provider.dll |
+| Value name           | Type      | Value data                                                             |
+| -------------------- | --------- | ---------------------------------------------------------------------- |
+| CategoryCount        | REG_DWORD | 0x00000003                                                             |
+| CategoryMessageFile  | REG_SZ    | **ApplicationWatcher path**/LoggingHandler/Windows/MeldCX_provider.dll |
+| EventMessageFile     | REG_SZ    | **ApplicationWatcher path**/LoggingHandler/Windows/MeldCX_provider.dll |
+| ParameterMessageFile | REG_SZ    | **ApplicationWatcher path**/LoggingHandler/Windows/MeldCX_provider.dll |
+| TypeSupported        | REG_DWORD | 0x00000007                                                             |
