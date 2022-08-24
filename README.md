@@ -29,7 +29,7 @@ Set the following values:
 
 | Value name | Type | Value data |
 
-|---------------------|-----------|----------------------------------------------------------------------|
+| --- | --- | --- |
 
 | CategoryCount | REG*DWORD | 0x00000003 |
 | CategoryMessageFile | REG_SZ | \_ApplicationWatcher path*/LoggingHandler/Windows/MeldCX_provider.dll |
