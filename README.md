@@ -6,7 +6,7 @@ Currently only working in Windows OS but having a plan to expand it in Ubuntu OS
 ## Compiler used
 
 Windows: MingGW-w64 g++
-Please see the Installation process[https://www.msys2.org/]
+Please see the [Installation process](https://www.msys2.org/)
 
 ## Included Library
 
