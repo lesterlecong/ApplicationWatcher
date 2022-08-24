@@ -1,0 +1,28 @@
+[
+  { "Executable": "Acrobat.exe", "Path": "None", "Command": "None" },
+  {
+    "Executable": "brave.exe",
+    "Path": "C:/Program Files",
+    "Command": "--Headless"
+  },
+  {
+    "Executable": "notepad.exe",
+    "Path": "C:/Program Files",
+    "Command": "E:/Meldcx Test/results.txt"
+  },
+  {
+    "Executable": "vlc.exe",
+    "Path": "C:\\Program Files (x86)\\VideoLAN\\VLC",
+    "Command": "None"
+  },
+  {
+    "Executable": "UltraViewer_Desktop.exe",
+    "Path": "C:\\Program Files (x86)\\UltraViewer",
+    "Command": "None"
+  },
+  {
+    "Executable": "Broker.exe",
+    "Path": "C:\\Program Files (x86)\\AmiBroker",
+    "Command": "None"
+  }
+]
