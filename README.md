@@ -26,6 +26,7 @@ Add "MeldCX" as a registry key under the following key:
 **_HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\eventlog\Application_**
 Make sure you run the **Registry Editor** as admin.
 Set the following values:
+
 | Value name | Type | Value data |
 
 |---------------------|-----------|----------------------------------------------------------------------|
