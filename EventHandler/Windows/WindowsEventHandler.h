@@ -21,6 +21,12 @@
 #include <wchar.h>
 #include <vector>
 
+/**
+ * @brief This the parent class for Windows event handler.
+ *        It is the responsible for listening the events.
+ *        The derived classes are needed to implement the parse and supply the provider name and library.
+ *
+ */
 class WindowsEventHandler : public EventHandler
 {
 public:

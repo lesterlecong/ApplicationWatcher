@@ -18,6 +18,11 @@ typedef struct LogParam_t
     int category;
 } LogParam;
 
+/**
+ * @brief This class will be abstract class for logging handlers.
+ *        It only supports writing the log into the system.
+ *
+ */
 class LoggerImpl
 {
 public:

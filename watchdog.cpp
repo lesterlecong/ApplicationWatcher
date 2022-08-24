@@ -31,6 +31,11 @@ using namespace std::chrono_literals;
 using namespace std::this_thread; // sleep_for, sleep_until
 using namespace std::chrono;
 
+/**
+ * @brief This function process the applications to run during
+ *        the startup or if there are changes in the configuratio file.
+ *
+ */
 void configWatcher()
 {
 
@@ -68,6 +73,11 @@ void configWatcher()
     }
 }
 
+/**
+ * @brief This function handles the process of checking and
+ *        running the application during Periodic events.
+ *
+ */
 void periodicCheck()
 {
 #ifdef ENABLE_DEBUG
@@ -94,6 +104,13 @@ void periodicCheck()
         }
     }
 }
+
+/**
+ * @brief This function handles if there system events happend.
+ *
+ * @param event - holds the name of the event (error, warning, information, etc)
+ * @param app - holds the name of the application that causes the system event.
+ */
 
 void systemEvent(const wchar_t *event, const wchar_t *app)
 {

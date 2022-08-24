@@ -13,11 +13,6 @@ EventHandler::~EventHandler()
     abortAndJoin();
 }
 
-void EventHandler::addApp(const wchar_t *sAppName)
-{
-    m_appList.push_back(sAppName);
-}
-
 void EventHandler::callback(EventCallback callback)
 {
     m_callback = callback;
